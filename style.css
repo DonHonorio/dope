@@ -14,7 +14,7 @@ header {
 
   /* FONDO */
   background: url(./img/div-fondo-header1920.png),
-    lightgray 50% / cover no-repeat;
+  #fff 50% / cover no-repeat;
 }
 
 /* NAVEGADOR (dentro de HEADER)*/
@@ -194,7 +194,7 @@ main {
 /* SECTION1 */
 
 .section1 {
-  background: url(./img/fondo-section1.png), lightgray 50% / cover;
+  background: url(./img/fondo-section1.png), #fff 50% / cover;
   background-repeat: no-repeat;
   background-position-y: 206px;
 }
