@@ -1,3 +1,4 @@
 # dope
 
 w
+editando directamente
