@@ -13,8 +13,7 @@ header {
   height: 1080px;
 
   /* FONDO */
-  background: url(./img/div-fondo-header1920.png),
-  #fff 50% / cover no-repeat;
+  background: url(./img/div-fondo-header1920.png), #fff 50% / cover no-repeat;
 }
 
 /* NAVEGADOR (dentro de HEADER)*/
@@ -197,6 +196,8 @@ main {
   background: url(./img/fondo-section1.png), #fff 50% / cover;
   background-repeat: no-repeat;
   background-position-y: 206px;
+  display: flex;
+  flex-direction: column;
 }
 
 .section1__cabecera {
@@ -217,7 +218,7 @@ main {
 
   color: var(--Black, #000);
   font-feature-settings: "clig" off, "liga" off;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -237,35 +238,122 @@ main {
 }
 
 .section1__article {
-  margin: 12em 0 0 12em;
+  margin-top: 12em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.section1__article iframe {
-  text-align: center;
+.article__down {
+  width: 1160px;
+  height: 354px;
+  display: flex;
 }
 
-.section1__article h3 {
+.article__down-description {
+  /* background-color: #fa2; */
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.section1__aside {
+  /* background-color: rgb(169, 70, 218); */
+  width: 25%;
+}
+
+.article__down-description h3 {
+  align-self: center;
+
   color: var(--Black, #000);
-  font-feature-settings: 'clig' off, 'liga' off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Poppins;
   font-size: 43px;
   font-style: normal;
   font-weight: 600;
   line-height: 56px; /* 130.233% */
   letter-spacing: -0.5px;
-
 }
 
-.section1__article p {
-  color: var(--Dark-Gray, #7B7B7B);
+.article__down-description p {
+  color: var(--Dark-Gray, #7b7b7b);
   text-align: center;
-  font-feature-settings: 'clig' off, 'liga' off;
-  font-family: 'Poppins';
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Poppins";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 17px; /* 94.444% */
+  line-height: 17px;
 
+  color: var(--Dark-Gray, #7b7b7b);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px;
 }
 
+.lineaVertical {
+  position: absolute;
+}
+
+.aside__content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.aside__linea {
+  padding: 1.3em 0;
+}
+
+.aside__RRSS {
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+}
+
+/* Botones del section 1 */
+
+.section1__botones {
+  align-self: center;
+  display: flex;
+}
+
+.section1__botones button {
+  margin: 0 5em;
+  border: 0;
+  background-image: linear-gradient(
+    150deg,
+    #9500ff,
+    #09f,
+    #00DDFF
+  );
+  border-radius: 8px;
+  color: #fff;
+  display: flex;
+  font-size: 18px;
+  padding: 4px;
+  cursor: pointer;
+  transition: 0.3;
+}
+
+.section1__botones button span {
+  background-color: #111;
+  padding: 16px 24px;
+  border-radius: 6px;
+  transition: 0.3;
+}
+
+.section1__botones button:hover span {
+  background: none;
+}
+
+.section1__botones button:active {
+  transform: scale(0.9);
+}
 
