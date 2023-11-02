@@ -1,5 +1,3 @@
 # dope
 
-honorio es un programador 
-
-esto no lo ha editado honorio
+URL: https://donhonorio.github.io/dope/
