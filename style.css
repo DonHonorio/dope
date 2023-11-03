@@ -410,6 +410,41 @@ main {
 
 /* SECTION 3 */
 
+.section3 {
+  width: 100%;
+  height: 468px;
+}
+
+.section3__grupos {
+
+}
+
+.section3__grupo {
+
+}
+
+.image-group1 {
+  width: 106px;
+  height: 106px;
+  background-image: url(./img/image-group1.png);
+}
+
+.image-group2 {
+  width: 116px;
+  height: 116px;
+  background-image: url(./img/image-group2.png);
+}
+
+.image-group3 {
+  width: 106px;
+  height: 106px;
+  background-image: url(./img/image-group3.png);
+
+}
+
+.image-group3 svg {
+  
+}
 
 
 /* SECTION 4 */
