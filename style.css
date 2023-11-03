@@ -322,31 +322,33 @@ main {
 .section1__botones {
   align-self: center;
   display: flex;
+  margin-bottom: 20em;
 }
 
 .section1__botones button {
   margin: 0 5em;
-  border: 0;
-  background-image: linear-gradient(
-    150deg,
-    #9500ff,
-    #09f,
-    #00DDFF
-  );
-  border-radius: 8px;
-  color: #fff;
+  border: 1px solid #000;
+  background-color: transparent;
+  border-radius: 5px;
+  color: #000;
   display: flex;
   font-size: 18px;
-  padding: 4px;
+  padding: 0.8em 3.25em;
   cursor: pointer;
   transition: 0.3;
 }
 
 .section1__botones button span {
-  background-color: #111;
-  padding: 16px 24px;
-  border-radius: 6px;
+  background-color: transparent;
   transition: 0.3;
+
+  /* color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 134.766%; 24.258px */
 }
 
 .section1__botones button:hover span {
@@ -357,3 +359,45 @@ main {
   transform: scale(0.9);
 }
 
+/* SECTION 2 */
+
+.section2 {
+  width: 100%;
+  height: 851px;
+  background: url(./img/body-image-section2.png), #fff 50% / cover;
+  background-repeat: no-repeat;
+  background-position-y: 94px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section2__title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-bottom: 2em;
+  margin-left: 10%;
+}
+
+.section2__title p {
+  padding-left: 2em;
+
+  color: var(--Black, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+  letter-spacing: -0.2px;
+}
+
+.section2__logos {
+  align-self: center;
+  margin-top: 2em;
+  width: 80%;
+  height: 566px;
+
+  background: url(./img/logos1.png);
+  background-repeat: no-repeat;
+}
