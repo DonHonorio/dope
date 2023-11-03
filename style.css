@@ -172,8 +172,7 @@ section.content {
   background-color: #0000;
 }
 
-.formulario1__contactanos {
-}
+.formulario1__contactanos {}
 
 #input_contactanos {
   width: 22%;
@@ -195,8 +194,7 @@ section.content {
 
 /* MAIN */
 
-main {
-}
+main {}
 
 /* SECTION1 */
 
@@ -230,7 +228,8 @@ main {
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px; /* 140% */
+  line-height: 28px;
+  /* 140% */
   letter-spacing: -0.2px;
 }
 
@@ -241,7 +240,8 @@ main {
   font-size: 43px;
   font-style: normal;
   font-weight: 600;
-  line-height: 56px; /* 130.233% */
+  line-height: 56px;
+  /* 130.233% */
   letter-spacing: -0.5px;
 }
 
@@ -280,7 +280,8 @@ main {
   font-size: 43px;
   font-style: normal;
   font-weight: 600;
-  line-height: 56px; /* 130.233% */
+  line-height: 56px;
+  /* 130.233% */
   letter-spacing: -0.5px;
 }
 
@@ -392,7 +393,8 @@ main {
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px; /* 140% */
+  line-height: 28px;
+  /* 140% */
   letter-spacing: -0.2px;
 }
 
@@ -415,13 +417,9 @@ main {
   height: 468px;
 }
 
-.section3__grupos {
+.section3__grupos {}
 
-}
-
-.section3__grupo {
-
-}
+.section3__grupo {}
 
 .image-group1 {
   width: 106px;
@@ -442,37 +440,80 @@ main {
 
 }
 
-.image-group3 svg {
-  
-}
+.image-group3 svg {}
 
 
 /* SECTION 4 */
 
 .section4 {
+  margin-top: 7em;
   width: 100%;
   height: 311px;
   background: url(./img/fondo-section4.png), lightgray 50% / cover;
-  }
-  
-  .section4 h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section4 h2 {
   color: #111;
   font-family: Poppins;
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
-  line-height: 140.625%; /* 45px */
-  margin-top: 3.5em;
+  line-height: 140.625%;
+  /* 45px */
+  /*margin-top: 3.5em;
   padding-top: 2.5em;
-  margin-left: 5em;
-  
-  }
-  
-  #section4_titulo {
+  margin-left: 5em;*/
+
+}
+
+#section4__titulo {
   color: #111;
   font-family: Poppins;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
-  line-height: 140.625%; /* 45px */
-  }
+  line-height: 140.625%;
+  /* 45px */
+}
+
+.boton-contacto {
+  margin-left: 5em;
+  width: 200px;
+  height: 48.4px;
+  flex-shrink: 0;
+}
+
+.boton-contacto span {
+  width: 167px;
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 134.766%;
+  /* 24.258px */
+}
+
+.boton-modoOscuro {
+  margin-left: 2em;
+  width: 200px;
+  height: 48.4px;
+  flex-shrink: 0;
+  background: #000;
+}
+
+.boton-modoOscuro span {
+  width: 167px;
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 134.766%;
+  /* 24.258px */
+}
